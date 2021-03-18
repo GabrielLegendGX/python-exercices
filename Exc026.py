@@ -1,0 +1,5 @@
+frase = str(input('digite uma texto : ')).upper().strip()
+n = str(input('digite a palavra que deseja contar: ')).upper().strip()
+print (' na frase para aparece {} a letra {} '.format(frase.count(n),n))
+print(' A primeiro posição é {}'.format(frase.find(n)))
+print(' a ultima psosição {}'.format(frase.rfind(n)))
